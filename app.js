@@ -3,7 +3,7 @@ function run(){
 	// Creating Our XMLHttpRequest object
 	var xhr = new XMLHttpRequest();
 	// Making our connection
-	var url = 'https://manraj.pythonanywhere.com/';
+	var url = 'https://manraj.pythonanywhere.com/question';
 	xhr.open("GET", url, true);
 	// function execute after request is successful
 	xhr.onreadystatechange = function () {
